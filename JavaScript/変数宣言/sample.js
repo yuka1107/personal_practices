@@ -1,5 +1,5 @@
-// varによる再代入
-var nickname = "taro"
+// letによる再代入
+let nickname = "taro"
 console.log(nickname)
 nickname = "Jiro"
 console.log(nickname)
