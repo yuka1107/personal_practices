@@ -1,7 +1,8 @@
-// constによる再宣言
-const nickname = "taro"
+// varによる再代入
+var nickname = "taro"
 console.log(nickname)
-const nickname = "ichiro"
+nickname = "Jiro"
 console.log(nickname)
 
-// constの場合でも再宣言はできないため、letの時と同様のエラーが確認できる。
+// 変数に値を代入した後で、別の値を代入することを再代入と言う。
+// 再代入はvarとletで可能。constでは再代入ができない。
