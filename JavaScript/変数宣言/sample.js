@@ -1,9 +1,7 @@
-// letによる再宣言
-let nickname = "taro"
+// constによる再宣言
+const nickname = "taro"
 console.log(nickname)
-let nickname = "ichiro"
+const nickname = "ichiro"
 console.log(nickname)
 
-// letniによる再宣言では「Uncaught SyntaxError: Identifier 'nickname' has already been declared」と、エラーが出る。
-// これは「'nickname'という変数は既に宣言されている」というエラー
-// letでは再宣言はできない
+// constの場合でも再宣言はできないため、letの時と同様のエラーが確認できる。
